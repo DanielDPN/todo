@@ -7,24 +7,4 @@
   </li>
 </ul>
 
-<div *ngIf="selectedTodo">
-
-  <h2>{{selectedTodo.description | uppercase}} Details</h2>
-  <div><span>id: </span>{{selectedTodo.id}}</div>
-  <div>
-    <label>description:
-      <input [(ngModel)]="selectedTodo.description" placeholder="description"/>
-    </label>
-  </div>
-  <div>
-    <label>responsible:
-      <input [(ngModel)]="selectedTodo.responsibleName" placeholder="responsible"/>
-    </label>
-  </div>
-  <div>
-    <label>percent:
-      <input [(ngModel)]="selectedTodo.percent" placeholder="percent"/>
-    </label>
-  </div>
-
-</div>
+<app-todo-detail [todo]="selectedTodo"></app-todo-detail>

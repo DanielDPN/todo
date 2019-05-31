@@ -1,0 +1,21 @@
+<div *ngIf="todo">
+
+  <h2>{{todo.description | uppercase}} Details</h2>
+  <div><span>id: </span>{{todo.id}}</div>
+  <div>
+    <label>description:
+      <input [(ngModel)]="todo.description" placeholder="description"/>
+    </label>
+  </div>
+  <div>
+    <label>responsible:
+      <input [(ngModel)]="todo.responsibleName" placeholder="responsible"/>
+    </label>
+  </div>
+  <div>
+    <label>percent:
+      <input [(ngModel)]="todo.percent" placeholder="percent"/>
+    </label>
+  </div>
+
+</div>
