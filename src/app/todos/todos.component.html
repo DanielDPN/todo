@@ -2,7 +2,7 @@
 <ul class="todos">
   <li *ngFor="let todo of todos">
     <a routerLink="/detail/{{todo.id}}">
-      <span class="badge">{{todo.id}}</span> {{todo.description}}
+      <span style="padding-left: 10px">{{todo.description}}</span>
     </a>
   </li>
 </ul>

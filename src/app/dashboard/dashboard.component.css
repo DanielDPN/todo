@@ -42,7 +42,7 @@ h4 {
   color: #eee;
   max-height: 120px;
   min-width: 120px;
-  background-color: #607d8b;
+  background-color: #088b6a;
   border-radius: 2px;
 }
 
@@ -63,7 +63,7 @@ h4 {
 @media (max-width: 600px) {
   .module {
     font-size: 10px;
-    max-height: 75px;
+    max-height: 140px;
   }
 }
 
@@ -73,6 +73,6 @@ h4 {
   }
 
   .module {
-    min-width: 60px;
+    min-width: 80px;
   }
 }
