@@ -5,13 +5,15 @@ import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {TodosComponent} from './todos/todos.component';
 import {FormsModule} from '@angular/forms';
-import { TodoDetailComponent } from './todo-detail/todo-detail.component'; // <-- NgModel lives here
+import {TodoDetailComponent} from './todo-detail/todo-detail.component';
+import { MessagesComponent } from './messages/messages.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TodosComponent,
-    TodoDetailComponent
+    TodoDetailComponent,
+    MessagesComponent
   ],
   imports: [
     BrowserModule,
